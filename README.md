@@ -39,7 +39,8 @@ The task was to:
 - Implement a **CI/CD pipeline** (GitHub Actions) that:
   - Builds Docker images on every push  
   - Pushes them to **Docker Hub**  
-  - Automatically deploys latest changes to the EC2 VM  
+  - Automatically deploys latest changes to the EC2 VM 
+  - Copy and paste this IP 34.204.107.68 into your browser 
 
 ---
 

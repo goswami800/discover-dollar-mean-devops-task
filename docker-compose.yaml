@@ -11,8 +11,7 @@ services:
       - app-net
 
   backend:
-    build:
-      context: ./backend
+    image: goswami800/mean-backend:latest   # ✅ Docker Hub image
     container_name: mean-backend
     restart: always
     depends_on:
@@ -25,8 +24,7 @@ services:
       - app-net
 
   frontend:
-    build:
-      context: ./frontend
+    image: goswami800/mean-frontend:latest
     container_name: mean-frontend
     restart: always
     depends_on:
